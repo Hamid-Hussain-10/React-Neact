@@ -6,6 +6,7 @@ import {
   StyleSheet,
   Image,
   TouchableOpacity,
+  Pressable,
 } from "react-native";
 
 export default function Card({ name, age }) {
@@ -37,6 +38,10 @@ export default function Card({ name, age }) {
             >
               <Text style={styles.like}>❤️</Text>
             </TouchableOpacity>
+            <Pressable
+              title="Go to Details"
+              onPress={() => navigation.navigate("Details", { name: "Ali" })}
+            />
             <Text style={styles.likeCount}>{like}</Text>
           </View>
         </View>
