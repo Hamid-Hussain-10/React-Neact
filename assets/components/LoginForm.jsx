@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   btn: {
+    backgroundColor: "blue",
     alignSelf: "center",
     paddingVertical: 8,
     paddingHorizontal: 26,
@@ -80,5 +81,6 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 16,
+    color: 'white',
   },
 });
