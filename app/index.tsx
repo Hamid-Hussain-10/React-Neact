@@ -3,7 +3,8 @@ import React from "react";
 // import Card from "../assets/components/Card";
 // import LoginForm from "../assets/components/LoginForm";
 // import FlatList from "../assets/components/Flatlist";
-import FetchData from "../assets/components/FetchData";
+// import FetchData from "../assets/components/FetchData";
+import Input from "../assets/components/Input";
 
 const index = () => {
   return (
@@ -11,7 +12,8 @@ const index = () => {
       {/* <Card name="Cristiano Ronaldo" age={39} /> */}
       {/* <LoginForm /> */}
       {/* <FlatList /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <Input />
     </View>
   );
 };
